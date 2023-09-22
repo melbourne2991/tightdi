@@ -1,0 +1,16 @@
+{
+  "name": "@melb2991/tightdi",
+  "version": "0.1.1",
+  "description": "",
+  "main": "container.js",
+  "types": "container.ts",
+  "scripts": {
+    "build": "esbuild container.ts --bundle --platform=neutral --outfile=container.js",
+    "publish": "npm publish --access public"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.19.3"
+  }
+}
